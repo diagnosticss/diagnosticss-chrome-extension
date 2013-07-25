@@ -1,17 +1,21 @@
 {
   "name": "DiagnostiCSS",
   "description": "Diagnostic CSS stylesheet that helps visually detect any potentially invalid, inaccessible or erroneous HTML markup.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "background": {
     "scripts": ["bg.js"],
     "persistent": false
   },
   "browser_action": {
+    "default_icon": "19.png",
     "default_title": "DiagnostiCSS"
   },
   "permissions": [
     "activeTab",
     "http://diagnosticss.github.io/css/diagnosticss.css"
   ],
+  "icons": {
+    "128": "128.png"
+  },
   "manifest_version": 2
 }
