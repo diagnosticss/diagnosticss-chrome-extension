@@ -1,7 +1,7 @@
 {
   "name": "DiagnostiCSS",
   "description": "Diagnostic CSS stylesheet that helps visually detect any potentially invalid, inaccessible or erroneous HTML markup.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "background": {
     "scripts": ["bg.js"],
     "persistent": false
